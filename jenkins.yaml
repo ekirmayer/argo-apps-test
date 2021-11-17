@@ -7,6 +7,8 @@ spec:
     path: jenkins
     repoURL: https://github.com/argoproj/argoproj-deployments
     targetRevision: HEAD
+    helm:
+      version: v3
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: argocd
