@@ -8,10 +8,10 @@ spec:
     repoURL: https://github.com/argoproj/argoproj-deployments
     targetRevision: HEAD
     helm:
-      version: v3
+      version: v2
   destination:
     server: 'https://kubernetes.default.svc'
-    namespace: argocd
+    namespace: jenkins
   project: default
   ignoreDifferences:
   - group: ''
